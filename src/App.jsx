@@ -1,10 +1,10 @@
- 
- 
- function App() {
+import TopButtons from "./components/TopButtons";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="className='mx-auto max-w-screen-lg mt-4 py-5 px-32 bg-gradient-to-br shadow-xl shadow-gray-400 from-cyan-600 to-blue-700'">
+      <TopButtons />
+    </div>
   )
 }
 
